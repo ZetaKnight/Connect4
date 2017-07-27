@@ -1,0 +1,105 @@
+#root{
+	/*-fx-background-color: linear-gradient(#80e5ff, #007a99);*/
+    -fx-background-image: url("../resources/background.png");
+   /* -fx-background-color:gray;*/
+	-fx-border-color: #000000;
+}
+#root2{
+    -fx-background-image: url("../resources/background4.png");
+    -fx-border-color: #000000;
+}
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+#title{
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+}
+#winning-state{
+    -fx-font-size: 100px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.75) , .1,.3,0,5 );
+    -fx-background-radius: 50;
+    -fx-text-fill:white;
+    
+}
+#content{
+    -fx-padding: 100 0 0 0;
+}
+.form{
+    -fx-spacing: 10;
+    -fx-fill:#E6475C;
+}
+.buttons-1{
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , .5,.3,0,5 );
+    -fx-background-radius: 50;
+    /*-fx-background-color:#E6475C;*/
+    -fx-font-size: 18;
+}
+.buttons-2{
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , .5,.3,0,5 );
+    -fx-background-radius: 50;
+    -fx-background-color:#E6475C;
+    -fx-font-size: 25;
+    -fx-pref-width: 200px;
+}
+.buttons-3{
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , .5,.3,0,5 );
+    -fx-background-radius: 50;
+    -fx-background-color:#E6475C;
+    -fx-font-size: 40;
+    -fx-pref-width: 400px;
+}
+.buttons-1:hover{
+	-fx-effect:none;
+    /*-fx-background-color:#E6475C;*/
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , .5,.3,0,2 );
+}
+.buttons-2:hover{
+	-fx-effect:none;
+    -fx-background-color:#E6475C;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , .5,.3,0,2 );
+}
+.buttons-3:hover{
+	-fx-effect:none;
+    -fx-background-color:#E6475C;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , .5,.3,0,2 );
+}
+
+.help-text{
+    -fx-font-size: 18;
+    -fx-text-alignment: left;
+}
+.sub-title-help{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-fill:#ffffff;
+    -fx-effect: dropshadow(one-pass-box, #333333, 10, .3, 5, 1);
+}
+.radio-help{
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-fill:#ffffff;
+    -fx-effect: dropshadow(one-pass-box, #333333, 10, .3, 5, 1);
+}
+
+.player1{
+    -fx-font-size: 40;
+    -fx-effect: dropshadow(one-pass-box, #333333, 10, .3, 5, 1);
+    -fx-font-weight: bold;
+    -fx-fill:#E6475C;
+}
+.player2{
+    -fx-font-size: 40;
+    -fx-effect: dropshadow(one-pass-box, #333333, 10, .3, 5, 1);
+    -fx-font-weight: bold;
+    -fx-fill:#FFBE40;
+}
+
+.board{
+    -fx-effect: dropshadow(gaussian, #000000, .5, .3, 2, 2);
+}
